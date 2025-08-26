@@ -18,7 +18,14 @@ const eslintConfig = [
       "out/**",
       "build/**",
       "next-env.d.ts",
+      "tailwind.config.js"
     ],
+  },
+  {
+    rules: {
+      indent: ["error", 2],
+      '@typescript-eslint/ban-ts-comment': 'off',
+    },
   },
 ];
 
